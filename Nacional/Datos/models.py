@@ -13,7 +13,7 @@ class Futbolista(models.Model):
 
 class Torneo(models.Model):
 
-    nombre = models.CharField(max_length=20)
+    nombre = models.CharField(max_length=25)
     año = models.IntegerField()
     caracter = models.CharField(max_length=20)
     nacionalidad = models.CharField(max_length=20)
